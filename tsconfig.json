@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Phiên bản JavaScript mục tiêu
+    "module": "ESNext", // Module sử dụng
+    "jsx": "react", // Hoặc "react-jsx" nếu bạn sử dụng React 17+
+    "strict": true, // Bật chế độ strict cho TypeScript
+    "moduleResolution": "node", // Cách TypeScript sẽ tìm kiếm module
+    "esModuleInterop": true, // Đảm bảo tương thích với các module ES6
+    "skipLibCheck": true, // Bỏ qua kiểm tra các định nghĩa kiểu của thư viện
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"] // Bao gồm các file trong thư mục src
+}
